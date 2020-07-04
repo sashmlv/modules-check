@@ -1,0 +1,33 @@
+{
+  "name": "checki",
+  "version": "0.0.1",
+  "description": "check variables",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "rollup --config ./build/rollup.config.js",
+    "build": "rollup --config ./build/rollup.config.js",
+    "test": "npm run build && ava"
+  },
+  "keywords": [
+    "check",
+    "variables"
+  ],
+  "author": "sashmlv",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "jsdom": "^16.2.2",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-terser": "^6.1.0"
+  },
+  "ava": {
+    "files": [
+      "!*.js",
+      "**/*.test.js"
+    ],
+    "verbose": true,
+    "timeout": "5s",
+    "failFast": true,
+    "serial": true
+  }
+}
