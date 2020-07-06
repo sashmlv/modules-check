@@ -2,7 +2,6 @@
 
 export const config = {
 
-   isA: true,
-   isB: true,
-   isS: true,
+   has: true,
+   cls: true,
 };
