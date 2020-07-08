@@ -4,7 +4,8 @@ const test = require( 'ava' ),
    fs = require( 'fs' ),
    jsdom = require( 'jsdom' ),
    { JSDOM } = jsdom,
-   { cls } = require( '../dist' ),
+   check = require( '../dist' ),
+   { cls } = check,
    lib = fs.readFileSync( './dist/index.js', 'utf8' );
 
 test( 'cls', t => {

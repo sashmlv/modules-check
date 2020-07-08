@@ -1,6 +1,6 @@
 'use strict';
 
-export const config = {
+module.exports = {
 
    has: true,
    cls: true,
