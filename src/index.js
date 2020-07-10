@@ -1,1 +1,2 @@
-/* see build scripts */
+export { cls } from './cls';
+export { has } from './has';

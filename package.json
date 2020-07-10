@@ -21,6 +21,7 @@
     "exports-loader": "^1.1.0",
     "imports-loader": "^1.1.0",
     "jsdom": "^16.2.2",
+    "string-replace-loader": "^2.3.0",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
@@ -30,7 +31,7 @@
       "**/*.test.js"
     ],
     "verbose": true,
-    "timeout": "5s",
+    "timeout": "12s",
     "failFast": true,
     "serial": true
   }

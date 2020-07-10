@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Get variable class
  * @param {*} any
